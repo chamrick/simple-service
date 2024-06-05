@@ -1,0 +1,23 @@
+{
+  "name": "simple-service",
+  "version": "1.0.0",
+  "description": "Simple service to get old code functioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chamrick/simple-service.git"
+  },
+  "author": "Cord Hamrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chamrick/simple-service/issues"
+  },
+  "homepage": "https://github.com/chamrick/simple-service#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
