@@ -1,3 +1,7 @@
-// ...
+import Koa from 'koa';
 
-const Koa = require('koa');
+const stubFn = () => {
+  console.log('Hello, World!');
+};
+
+stubFn();
