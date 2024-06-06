@@ -1,2 +1,3 @@
 // ...
 
+const Koa = require('koa');
