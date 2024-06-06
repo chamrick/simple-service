@@ -1,7 +1,13 @@
 import Koa from 'koa';
+import Router from 'koa-router';
+import { rootRouteHandler, statusRouteHandler } from './routes/index.js';
 
-const stubFn = () => {
-  console.log('Hello, World!');
-};
+const app = new Koa();
+const router = new Router();
 
-stubFn();
+router.get('/', rootRouteHandler);
+router.get('/status', statusRouteHandler);
+
+app.use(router.routes());
+app.listen(3000);
+
